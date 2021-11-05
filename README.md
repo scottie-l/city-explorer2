@@ -5,19 +5,23 @@
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
+
 App that lets you select a city and you'll be provided with a map for that city as well as other info like restaurants and the weather.
 
 ## Getting started
 
 ## Architecture
+
 Repo on GitHub. Uses HTML, CSS, JavaScript, React-bootstrap, Axios
 
 ## Change Log
+
 Use this area to document the iterative changes made to your application as each feature is successfully implemented.
 
 <!-- Use time stamps. Here's an example: 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
 ## Credit and Collaborators
+
 Kirk Garrison helped to get maps to display properly and render.
 
 <img src ='images/city-explorer wireframe.png'>
@@ -28,7 +32,7 @@ Kirk Garrison helped to get maps to display properly and render.
 
 ## Time Estimates
 
-Name of feature: Import and display maps
+###### Name of feature: Import and display maps for selected city
 
 Estimate of time needed to complete: 5 hrs
 
@@ -37,6 +41,26 @@ Start time: 3:45
 Finish time: 3:00
 
 Actual time needed to complete: 8 hrs
+
+###### Name of feature: Import and display weather for selected city
+
+Estimate of time needed to complete: 3 hrs
+
+Start time: 4:00
+
+Finish time: 6:30
+
+Actual time needed to complete: 2.5 hrs
+
+###### Name of feature: Import and display movies named for selected city
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: 1:30
+
+Finish time: 4:00
+
+Actual time needed to complete: 2.5 hrs
 
 # Getting Started with Create React App
 
