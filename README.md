@@ -20,6 +20,8 @@ Use this area to document the iterative changes made to your application as each
 ## Credit and Collaborators
 Kirk Garrison helped to get maps to display properly and render.
 
+<img src = 'images/WRRC.png>
+
 <img src ='images/city-explorer wireframe.png'>
 
 ## Time Estimates
