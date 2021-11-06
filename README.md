@@ -28,7 +28,7 @@ Kirk Garrison helped to get maps to display properly and render.
 
 <img src = 'images/WRRC.png>
 
-<image src = 'images/Modules.png>
+<img src = 'images/Modules.png>
 
 ## Time Estimates
 
@@ -61,6 +61,16 @@ Start time: 1:30
 Finish time: 4:00
 
 Actual time needed to complete: 2.5 hrs
+
+###### Name of feature: Make functions modular as possible
+
+Estimate of time needed to complete: 3 hrs
+
+Start time: TBD
+
+Finish time: TBD
+
+Actual time needed to complete: -- hrs
 
 # Getting Started with Create React App
 
