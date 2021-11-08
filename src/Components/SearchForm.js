@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './pages.css/App.css';
+import './css/App.css';
 
 export default class SearchForm extends Component {
 
@@ -33,7 +33,7 @@ export default class SearchForm extends Component {
           </Form.Group>
           <Button onClick = {this.handleClick} variant = 'primary' type = 'submit'>Explore!</Button>
         </Form>
-        <p>{this.state.cityName}</p>
+        {/* <p>{this.state.cityName}</p> */}
       </Container>
     )
   }

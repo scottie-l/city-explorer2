@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import axios from 'axios';
 
 export default class Movie extends Component {
@@ -20,8 +21,10 @@ export default class Movie extends Component {
     render() {
         return (
             <Container id = 'movieCont'>
+                <Row>
                 <button onClick = {this.getMovieListing}>Get movie listings</button> 
-                {this.state.movieListing.length > 0 && this.state.movieListing.map((movie, index) => <li key = {index}>Title:{movie.title}/Overvierw:{movie.overview} <img src= {movie.image}alt={movie.title}/></li>)}
+                {this.state.movieListing.length > 0 && this.state.movieListing.map((movie, index) => <li key = {index}>Title:{movie.title} Overvierw:{movie.overview} <img src= {movie.image} alt={movie.title}/></li>)}
+                </Row>
             </Container>
         )
     }

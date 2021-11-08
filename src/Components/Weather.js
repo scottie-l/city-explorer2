@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import axios from 'axios';
-// import forecastCont from './pages.css/forecastCont.css';
+// import forecastCont from './css/forecastCont.css';
 
 export default class Weather extends Component {
 

@@ -6,7 +6,7 @@ export default class CityCard extends Component {
     render() {
         return (
             <Container>
-                <Card id = 'CityCard' style = {{width: '18rem'}}>
+                <Card id = 'cityCard' style = {{width: '18rem'}}>
                     <Card.Img variant = 'top' src = {this.props.location.map}/>
                     <Card.Body>
                         <Card.Title>{this.props.location.display_name}</Card.Title>    
