@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import Header from './Header.js';
-import Footer from './Footer.js';
-import CityCard from './CityCard.js';
-import SearchForm from './SearchForm';
+import Header from './Components/Header.js';
+import Footer from './Components/Footer.js';
+import CityCard from './Components/CityCard.js';
+import SearchForm from './Components/SearchForm';
 import Alert from 'react-bootstrap/Alert';
-import Weather from './Weather.js';
-import Movie from './Movie.js';
+import Weather from './Components/Weather.js';
+import Movie from './Components/Movie.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './pages.css/App.css';
+import './css/App.css';
 
 
 export default class App extends Component {

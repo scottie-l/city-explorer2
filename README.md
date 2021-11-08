@@ -26,9 +26,13 @@ Kirk Garrison helped to get maps to display properly and render.
 
 <img src ='images/city-explorer wireframe.png'>
 
-<img src = 'images/WRRC.png>
+<img src = 'images/WRRC.png'>
 
-<img src = 'images/Modules.png>
+<img src = 'images/API request response cycle.png'>
+
+<img src = 'images/Modules.png'>
+
+<img src = 'images/Cached memory.png'>
 
 ## Time Estimates
 
