@@ -6,10 +6,8 @@ import CityCard from './Components/CityCard.js';
 import SearchForm from './Components/SearchForm';
 import Alert from 'react-bootstrap/Alert';
 import Weather from './Components/Weather.js';
-import Movie from './Components/Movie.js';
+import Movies from './Components/Movies';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/App.css';
-
 
 export default class App extends Component {
 
@@ -47,7 +45,7 @@ export default class App extends Component {
         {this.state.location.map && <CityCard location = {this.state.location}/>}
         {this.state.error && <Alert variant = 'danger'>There has been an Error</Alert>}
         {this.state.location.map && <Weather location = {this.state.location}/>}
-        {this.state.location.map && <Movie location = {this.state.location}/>}
+        {this.state.location.map && <Movies location = {this.state.location}/>}
         <Footer/>
       </div>
     )

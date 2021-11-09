@@ -1,6 +1,5 @@
 import {Component} from 'react';
 import Container from 'react-bootstrap/Container';
-// import header from './css/header.css';
 
 export default class Header extends Component {
     render() {
